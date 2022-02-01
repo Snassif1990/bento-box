@@ -1,0 +1,36 @@
+#bento-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "blank fish-flag fish-flag vase-short"
+    "blank map map vase-short"
+    "blank vase-tall bamboo bamboo"
+    "blank vase-tall bamboo bamboo"
+    "blank vase-tall quadropus quadropus";
+}
+#bento-1 {
+    display: grid;
+    grid-area: fish-flag;
+    size: fill;
+}
+#bento-2 {
+    display: grid;
+    grid-area: map;
+}
+#bento-3 {
+    display: grid;
+    grid-area: vase-short;
+}
+#bento-4 {
+    display: grid;
+    grid-area: vase-tall;
+}
+#bento-5 {
+    display: grid;
+    grid-area: bamboo;
+}
+#bento-6 {
+    display: grid;
+    grid-area: quadropus;
+}
