@@ -1,36 +1,35 @@
 #bento-box {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 140px 130px 130px;
+    grid-template-rows: 77px 90px 100px 100px 100px;
     grid-template-areas:
-    "blank fish-flag fish-flag vase-short"
-    "blank map map vase-short"
-    "blank vase-tall bamboo bamboo"
-    "blank vase-tall bamboo bamboo"
-    "blank vase-tall quadropus quadropus";
+    "g-1 g-1 g-3"
+    "g-2 g-2 g-3"
+    "g-4 g-5 g-5"
+    "g-4 g-5 g-5"
+    "g-4 g-6 g-6";
 }
 #bento-1 {
     display: grid;
-    grid-area: fish-flag;
-    size: fill;
+    grid-area: g-1;
 }
 #bento-2 {
     display: grid;
-    grid-area: map;
+    grid-area: g-2;
 }
 #bento-3 {
     display: grid;
-    grid-area: vase-short;
+    grid-area: g-3;
 }
 #bento-4 {
     display: grid;
-    grid-area: vase-tall;
+    grid-area: g-4;
 }
 #bento-5 {
     display: grid;
-    grid-area: bamboo;
+    grid-area: g-5;
 }
 #bento-6 {
     display: grid;
-    grid-area: quadropus;
+    grid-area: g-6;
 }
